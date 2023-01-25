@@ -1,5 +1,5 @@
-T = int(input())
-for t in range(1, T+1):
-     numbers = list(map(int,input().split()))
-     avg = round(sum(numbers)/len(numbers))
-     print(f"#{t} {avg}")
+t = int(input())
+for i in range(1, t+1):
+    numbers = list(map(int,input().split()))
+    num = round(sum(numbers)/len(numbers))
+    print(f'#{i} {num}')
