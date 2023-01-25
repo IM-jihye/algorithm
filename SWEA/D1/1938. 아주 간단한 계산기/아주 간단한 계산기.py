@@ -1,6 +1,4 @@
-a,b = list(map(int,input().split()))
-1<=a
-b<=9
+a,b = map(int,input().split())
 print(a + b)
 print(a - b)
 print(a * b)
