@@ -1,3 +1,3 @@
 number = int(input())
-for i in range (0,number):
+for i in range (number):
     print('#',end="")
